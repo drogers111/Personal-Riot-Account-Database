@@ -1,4 +1,4 @@
-# Personal-Riot-Account-Database
+# Personal-Riot-Account-MANAGER
 
 1. What is the motivation behind creating this and what is the general purpose of this project?
    I play a game called League of Legends and in order to play with my friends, I need accounts that are within 3 ranked divisions of my friend's account. To do this, I have made a lot of different accounts and wanted a single solution place where I can have the accounts' IDs, usernames, passwords, and ranks. This didnt exist, so I wanted to create a python program that could take the account ID and username/password as input, make various calls to the Riot Games API to fetch account data and parse rank/division before entering it into a csv file with all the other accounts. Then, the stored accounts can be ordered by rank and displayed so that I can get my username/password for whichever ranked account I wish to log into at that time. 
